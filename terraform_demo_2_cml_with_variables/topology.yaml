@@ -999,8 +999,8 @@ annotations:
     text_unit: pt
     thickness: 1
     type: text
-    x1: 394.3766578249337
-    y1: -45.09283819628647
+    x1: 102
+    y1: -223
     z_index: 1
   - border_color: '#00000000'
     border_style: ''
@@ -1014,8 +1014,8 @@ annotations:
     text_unit: pt
     thickness: 1
     type: text
-    x1: 84.98673740053053
-    y1: -24.721485411140584
+    x1: 85
+    y1: -40
     z_index: 1
   - border_color: '#00000000'
     border_style: ''
