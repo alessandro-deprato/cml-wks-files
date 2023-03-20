@@ -41,7 +41,7 @@ resource "cml2_node" "core1" {
   nodedefinition = "iosxrv9000"
   cpus = 4
   x = 0
-  y = 300
+  y = -300
 }
 resource "cml2_node" "core2" {
   lab_id         = cml2_lab.demo_1.id
@@ -49,7 +49,7 @@ resource "cml2_node" "core2" {
   nodedefinition = "iosxrv9000"
   cpus = 4
   x = 300
-  y = 300
+  y = -300
 }
 resource "cml2_node" "access1" {
   lab_id         = cml2_lab.demo_1.id
@@ -57,7 +57,7 @@ resource "cml2_node" "access1" {
   nodedefinition = "nxosv9000"
   cpus = 2
   x = 0
-  y = -300
+  y = 300
 }
 resource "cml2_node" "access2" {
   lab_id         = cml2_lab.demo_1.id
@@ -65,7 +65,7 @@ resource "cml2_node" "access2" {
   nodedefinition = "nxosv9000"
   cpus = 2
   x = 300
-  y = -300
+  y = 300
 }
 resource "cml2_link" "l0" {
   lab_id = cml2_lab.demo_1.id
