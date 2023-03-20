@@ -1,0 +1,5 @@
+address  = "https://REPLACE_ME"
+username = "REPLACE_ME"
+password = "REPLACE_ME"
+device_password = "REPLACE_ME"
+device_username = "REPLACE_ME"
