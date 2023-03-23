@@ -2,7 +2,7 @@
 
 ## Getting Started
 This repository contains the terraform topologies that will be used during the EMEA Workshop.
-Topologies and configurations are not production grade. 
+Topologies and configurations are not suited for production. 
 
 ### Prerequisites
 CML >= 2.5
